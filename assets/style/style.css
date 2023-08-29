@@ -9,6 +9,8 @@
 
 body {
 	color: aliceblue;
+	background: #09001d;
+	overflow: hidden;
 }
 
 .header {
@@ -46,11 +48,13 @@ body {
 }
 
 .main {
+	min-height: 100vh;
 	background: url("../images/kiwi.jpeg");
 	background-repeat: no-repeat;
-	min-height: 100vh;
 	background-position: center;
 	background-size: cover;
+	pointer-events: auto;
+    transition: .3s ease;
 }
 
 .main.active {
@@ -59,8 +63,9 @@ body {
 }
 
 .home {
+	position: relative;
+	left: -50%;
 	width: 100%;
-	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -68,11 +73,10 @@ body {
 }
 
 .home-content {
+	max-width: 600px;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	width: 800px;
+	flex-direction: column;
 }
 
 .home-content h1 {
@@ -101,10 +105,9 @@ body {
 	font-weight: 600;
 	cursor: pointer;
 	transition: .5s;
-	box-shadow: 0 0 10px black;
 }
 
-.start-btn:hover {
+.home-content .start-btn:hover {
 	background: #000000;
 	box-shadow: none;
 }
