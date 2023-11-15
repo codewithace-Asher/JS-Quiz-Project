@@ -1,57 +1,52 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JS Quiz Project - Te Reo Maori / English</title>
-<link href="assets/style/style.css" rel="stylesheet" type="text/css">
-<link href="assets/js/js.js" type="text/javascript">
-<link href="assets/js/questions.js" type="text/javascript">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Project with Code + | Project #3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	
-	<main  class="main">
-		<header class="header">
-			<a href="#" class="logo"> Te Patapatia. The Quiz.</a>
-			
-			<nav class="navbar">
-				<a href="#" class="active">Home</a>
-				<a href="#">About</a>
-				<a href="#">Te Reo</a>
-				<a href="#">Maori Culture</a>
-			</nav>
-		</header>
-		
-		<div class="container">
+
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Pataitai.</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Aotearoa</a>
+                <a href="#">Te Reo Maori</a>
+                <a href="#">Te Tiriti o Waitangi</a>
+                <a href="#">Maori History</a>
+            </nav>
+        </header>
+
+        <div class="container">
             <section class="quiz-section">
                 <div class="quiz-box">
-                    <h1>Te Patapatia. The Quiz</h1>
+                    <h1>Pataitai Quiz</h1>
                     <div class="quiz-header">
-                        <span>Te Patapatia</span>
+                        <span>Ko to Pataitai</span>
                         <span class="header-score">Score: 0 / 5</span>
                     </div>
 
                     <h2 class="question-text">Where is the Maori culture primarily rooted?</h2>
 
                     <div class="option-list">
-                        <div class="option">
+                        <!-- <div class="option">
                             <span>A. Samoa</span>
                         </div>
                         <div class="option">
                             <span>B. Hawaiki</span>
                         </div>
                         <div class="option">
-                            <span>C. New Zealand</span>
+                            <span>C. Aotearoa</span>
                         </div>
                         <div class="option">
                             <span>D. Cook Islands</span>
-                        </div>
+                        </div> -->
                     </div>
 
                     <div class="quiz-footer">
@@ -79,41 +74,31 @@
 
             <section class="home">
                 <div class="home-content">
-                    <h1>Quiz Website</h1>
-                    <p>Step into the fascinating world of Maori culture and tradition with our engaging and educational Te Patapatia(Maori Quiz Challenge). Test your knowledge and discover the depths of this ancient indigenous culture that thrives in the heart of New Zealand.</p>
-                    <button class="start-btn">Timata te Patapatai!</button>
+                    <h1>Pataitai-The Quiz</h1>
+                    <p>Welcome to the Maori Culture and Heritage Quiz Challenge! Test your knowledge and immerse yourself in the captivating world of Maori culture, history, and tradition. This quiz will take you on a journey through the rich tapestry of the Maori people, from their ancient practices to their contemporary contributions. Are you ready to discover the essence of Maori heritage? Let's get started!</p>
+                    <button class="start-btn">Start Quiz</button>
                 </div>
             </section>
         </div>
-		
-		<!--
-				
-				<p>Challenge your friends, family, or even your own knowledge as you navigate through thought-provoking questions that delve into the depths of Maori mythology, famous figures, traditional rituals, and the profound influence of the Maori language, Te Reo.
+    </main>
 
-				Unlock a deeper appreciation for Maori culture as you progress through the quiz and witness your understanding of this vibrant heritage grow. Immerse yourself in the stories, legends, and wisdom that have been passed down through generations, shaping the Maori identity and enriching the cultural fabric of New Zealand.</p><br>
-				
-				<p>Join us in celebrating the indomitable spirit of the Maori people through our Maori Quiz Challenge. Explore, learn, and connect with the essence of a culture that continues to leave an indelible mark on the world. Are you ready to embark on this enlightening journey? Take the Te Parapatia today!</p>-->
-				
-		
-	</main>
-	
     <div class="popup-info">
         <h2>Quiz Guide</h2>
-        <span class="info">1. Lorem ipsum dolor sit amet consectetur.</span>
-        <span class="info">2. Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-        <span class="info">3. Lorem ipsum dolor sit amet cons.</span>
-        <span class="info">4. Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-        <span class="info">5. Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+        <span class="info">1. Take a look into where Maori Culture is embraced. </span>
+        <span class="info">2. A Deeper dive into Tradition Maori tattoo.</span>
+        <span class="info">3. Connecting the people with the land.</span>
+        <span class="info">4. A glimpse into the Indigenious Language .</span>
+        <span class="info">5. The Maori Myths and Legends.</span>
 
         <div class="btn-group">
             <button class="info-btn exit-btn">Exit Quiz</button>
             <a href="#" class="info-btn continue-btn">Continue</a>
         </div>
     </div>
-	
-	<link href="assets/js/js.js" type="text/javascript">
-	<link href="assets/js/questions.js" type="text/javascript">
-	
-	
+
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
