@@ -6,7 +6,7 @@ let questions = [
         options: [
             "A. Samoa",
             "B. Hawaiki",
-            "C. New Zealand",
+            "C. Aotearoa",
             "D. Cook Islands"
         ]
     },
@@ -54,4 +54,6 @@ let questions = [
             "D. Maui"
         ]
     }
+	
+	
 ];
