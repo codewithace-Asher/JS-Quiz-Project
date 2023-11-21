@@ -2,7 +2,7 @@ let questions = [
     {
         numb: 1,
         question: "Where is the Maori culture primarily rooted?",
-        answer: "C. New Zealand",
+        answer: "C. Aotearoa",
         options: [
             "A. Samoa",
             "B. Hawaiki",
