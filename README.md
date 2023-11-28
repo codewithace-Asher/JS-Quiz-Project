@@ -19,24 +19,35 @@ a. First, retrieve and store references to the necessary HTML elements (e.g., qu
 
 b. Create variables to track the current question number, user's score, and user's selected answers.
 
+<img src="screenshot.png">
+
 c. Write a function that loads the next question and its options onto the screen. Update the question text and option buttons based on the current question number.
+
+<img src="screenshot.png">
 
 d. Implement event listeners for the option buttons so that when the user selects an answer, it's recorded in the user's selected answers.
 
-e. Include a "Submit" button that allows the user to finalize their answers.
+<img src="screenshot.png">
+
+e. Included auto progress final score /results.
+
+
+<img src="screenshot.png">
 
 Scoring and Results:
-a. After the user submits the quiz, calculate the score by comparing the user's selected answers with the correct answers. Award points for each correct answer.
-b. Display the user's score along with a feedback message, such as "Congratulations!" for a high score or "Better luck next time!" for a low score.
+a. Auto submit with circular/pie progressive chart with total number of question right/wrong.
+
 
 Styling and User Interface:
 Use CSS to style the quiz game, making it visually appealing and user-friendly. Consider using animations or visual cues to provide feedback to the user when they answer questions.
 
 Error Handling:
-Incorporate error handling to ensure that the user selects an answer before moving to the next question or submitting the quiz. Display appropriate messages or visual cues to guide the user if they miss any steps.
+Incorporated an auto show of correct answer using function optionSelected see below :
+
+
 
 Play Again Option:
-Add a "Play Again" button or feature that allows the user to reset the quiz and start over.
+Implemeted a "Start Again Button" to start Quiz again.
 
 Testing:
 Test the quiz game thoroughly, ensuring that all functionalities work as expected and that the user experience is smooth and intuitive.<p><br>
