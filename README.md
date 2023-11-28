@@ -25,7 +25,7 @@ b. Create variables to track the current question number, user's score, and user
 
 c. Write a function that loads the next question and its options onto the screen. Update the question text and option buttons based on the current question number.
 
-<img src="images/functionoptionselected.png">
+<img src="images/question.png">
 
 d. Implement event listeners for the option buttons so that when the user selects an answer, it's recorded in the user's selected answers.
 
@@ -39,17 +39,15 @@ e. Included auto progress final score /results.
 Scoring and Results:
 a. Auto submit with circular/pie progressive chart with total number of question right/wrong.
 
+<img src="images/result.png">
 
 Styling and User Interface:
 Use CSS to style the quiz game, making it visually appealing and user-friendly. Consider using animations or visual cues to provide feedback to the user when they answer questions.
 
-Error Handling:
-Incorporated an auto show of correct answer using function optionSelected see below :
-
-
-
 Play Again Option:
-Implemeted a "Start Again Button" to start Quiz again.
+Implemeted a "Try Again Button" & "Home Button".
+
+<img src="images/result.png">
 
 Testing:
 Test the quiz game thoroughly, ensuring that all functionalities work as expected and that the user experience is smooth and intuitive.<p><br>
