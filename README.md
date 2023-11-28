@@ -3,6 +3,8 @@
 
 <p align="center"> <a href="https://twitter.com/asher_dev_" target="blank"><img src="https://img.shields.io/twitter/follow/asher_dev_?logo=twitter&style=for-the-badge" alt="asher_dev_" /></a> </p>
 
+<img src="images/screenshot.png">
+
 <p align="center">In this project, i will walk through the process of creating an interactive quiz game using JavaScript, HTML and CSS. The game will present a series of multiple-choice questions to the user, track their answers, and display the final score at the end.
 
 Setting up the HTML:
@@ -19,20 +21,20 @@ a. First, retrieve and store references to the necessary HTML elements (e.g., qu
 
 b. Create variables to track the current question number, user's score, and user's selected answers.
 
-<img src="screenshot.png">
+<img src="images/functionquestion.png">
 
 c. Write a function that loads the next question and its options onto the screen. Update the question text and option buttons based on the current question number.
 
-<img src="screenshot.png">
+<img src="images/functionoptionselected.png">
 
 d. Implement event listeners for the option buttons so that when the user selects an answer, it's recorded in the user's selected answers.
 
-<img src="screenshot.png">
+<img src="images/functionoptionselected.png">
 
 e. Included auto progress final score /results.
 
 
-<img src="screenshot.png">
+<img src="images/finalscorefunction.png">
 
 Scoring and Results:
 a. Auto submit with circular/pie progressive chart with total number of question right/wrong.
